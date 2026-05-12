@@ -1,0 +1,1 @@
+Use the report when a quality inspector or supervisor needs to formally document a non-conforming inspection so that controllers, quality leads, and operations can review the findings, sign off, and trigger corrective actions.
