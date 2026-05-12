@@ -1,1 +1,1 @@
-Use the report when a quality inspector or supervisor needs to formally document a non-conforming inspection so that controllers, quality leads, and operations can review the findings, sign off, and trigger corrective actions.
+Use the report when quality inspectors or QA managers need to issue a non-conformance record (NCR/CAR) for a failed inspection so that the affected item, lot, test results, and responsible signatories are captured for review and corrective action.
