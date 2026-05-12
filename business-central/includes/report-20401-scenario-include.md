@@ -1,1 +1,1 @@
-Use the report when a quality inspector or approver needs to issue a signed Certificate of Analysis to confirm that an item, lot, serial, or package has passed inspection and document the underlying test values and results.
+Use the report when quality staff need to provide customers or auditors with a formal certificate that documents an item's inspection results, including test values, result conditions, and the inspector and approver signatures.
