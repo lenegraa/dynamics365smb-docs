@@ -1,1 +1,1 @@
-Use the report when quality staff need to provide customers or auditors with a formal certificate that documents an item's inspection results, including test values, result conditions, and the inspector and approver signatures.
+Use the report when you need to share quality inspection results with a customer, auditor, or internal stakeholder and confirm that an item, lot, serial, or package meets the required specifications.
