@@ -1,1 +1,1 @@
-Use the report when quality managers or inspectors need to share finished inspection results with customers, auditors, or internal stakeholders as a formal certificate that confirms the tested item meets specification.
+Use the report when a quality inspector or approver needs to issue a signed Certificate of Analysis to confirm that an item, lot, serial, or package has passed inspection and document the underlying test values and results.
