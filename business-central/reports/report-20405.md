@@ -1,6 +1,6 @@
 ---
 title: Quality Management - General Purpose Inspection Report (report)
-description: Print a general purpose inspection report that documents test results, item tracking, and sign-offs for a completed quality inspection.
+description: Print a finished quality inspection with results, signatures, and item tracking details for sharing with stakeholders or archiving.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
@@ -17,9 +17,9 @@ ai.usage: ai-assisted
 
 # Quality Management - General Purpose Inspection Report (report)
 
-The **Quality Management - General Purpose Inspection Report** report prints a structured inspection document that includes company and contact details, the inspected item with variant and tracking information, the inspection sequence and result, each test field with its entered value and last-modified user, and signature blocks for the inspector and approver.
+The **Quality Management - General Purpose Inspection Report** report prints a formatted inspection document that shows the inspection header, the tested fields and their results, who completed and approved the inspection, and the related product and item tracking information. The report supports RDLC and Word layouts and includes company information, signature blocks, and per-line measurement notes.
 
-You can filter the report by source item number, source variant code, source lot number, source serial number, source package number, source document number, inspection number, re-inspection number, and template code on the header, and by test code on the lines, so you can produce a certificate for a specific lot, serial, or inspection iteration.
+You can filter the report by source item number, variant code, lot number, serial number, package number, source document number, inspection number, re-inspection number, template code, and test code, so you can print a single inspection, a specific re-inspection sequence, or a subset of test lines.
 
 ## Use cases
 
@@ -27,17 +27,20 @@ You can filter the report by source item number, source variant code, source lot
 
 Quality inspectors can use the report to:
 
-* Print the finished inspection for a specific lot or serial number to attach to a shipment.
-* Produce a re-inspection document by filtering on the re-inspection number to show the latest results.
-* Capture entered test values, results, and the user and timestamp of each measurement for the inspection record.,Quality managers and approvers can use the report to:
+* Print a completed inspection with results, signatures, and timestamps for an item, lot, or serial number.
+* Generate a re-inspection sequence document that shows the status and result description for each round.
+* Include measurement notes and per-line commentary alongside the recorded test values.
 
-* Review a completed inspection with signature blocks for the inspector and the configured certificate approver before release.
-* Filter by template code to print all inspections that used a given test template for audit review.
-* Share a consistent certificate of analysis layout that includes company information, contact details, and promoted result conditions.,Customer service and shipping teams can use the report to:
+Quality managers and approvers can use the report to:
 
-* Generate a certificate of analysis to send to customers who request inspection evidence with their order.
-* Filter by source document number to print the inspection tied to a specific sales or warehouse document.
-* Include item description, variant, lot, and serial information so the document matches what the customer receives.
+* Produce an approver-signed inspection record for customer or audit distribution.
+* Review which fields a specific inspector filled in and when, including the person details for person-type fields.
+* Share company contact information and a designated certificate contact on the inspection document.
+
+Warehouse and production teams can use the report to:
+
+* Attach an inspection printout to a shipment, work order, or quarantined batch.
+* Verify that the source item, variant, lot, serial, or package matches the inspected goods before release.
 
 ## Try the report
 

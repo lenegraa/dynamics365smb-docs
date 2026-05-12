@@ -1,1 +1,1 @@
-Use the report when quality inspectors and approvers need a printable record of an inspection's test results, item tracking details, and sign-offs to share with customers, auditors, or internal teams.
+Use the report when quality inspectors or approvers need a printable record of a completed inspection to share with customers, auditors, or production teams.
