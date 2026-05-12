@@ -1,6 +1,6 @@
 ---
 title: Quality Inspection - Certificate of Analysis (report)
-description: Generate a signed certificate of analysis that summarizes inspection results, test values, and approvals for an item, lot, serial, or package.
+description: Generate a signed certificate of analysis that documents inspection results, test values, and approvals for an item, lot, serial, or package.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
@@ -17,27 +17,25 @@ ai.usage: ai-assisted
 
 # Quality Inspection - Certificate of Analysis (report)
 
-The **Quality Inspection - Certificate of Analysis** report prints a formal certificate for a finished quality inspection. It shows the inspected item and item tracking details, each test with its value and result, any promoted result conditions, and the signatures of the inspector and approver, along with company and contact information.
+The **Quality Inspection - Certificate of Analysis** report prints a formal certificate that summarizes a finished quality inspection, including company and contact information, item and item tracking details, each test with its value and result, condition labels for promoted results, and signature blocks for the inspector who finished the inspection and the approver.
 
-You can filter the report by source item number, variant code, lot number, serial number, package number, source document number, inspection number, re-inspection number, and template code, so you can produce a certificate for a specific shipment, batch, or inspection cycle.
+You can filter the report by source item number, variant code, lot number, serial number, package number, source document number, inspection number, re-inspection number, and template code, so you can produce a certificate for a specific shipment, batch, or reinspection sequence. On the inspection lines, you can also filter by test code to limit which tests appear on the certificate.
 
 ## Use cases
 
 [!INCLUDE [report-20401-scenario](../includes/report-20401-scenario-include.md)]
 
-Quality inspectors and QA managers can use the report to:
+Quality managers and inspectors can use the report to:
 
-* Issue a certificate of analysis for a finished inspection of a lot, serial, or package before release.
-* Document each test, the recorded test value, and the resulting pass or fail outcome.
-* Provide a signed record for the inspector and approver to support traceability and audits.,Sales and customer service teams can use the report to:
+* Issue a signed certificate of analysis for a finished inspection of a specific lot, serial, or package.
+* Document test values, results, and unfavorable outcomes for each measurement performed against the template.
+* Reprint a certificate for a reinspection sequence to show the latest results and approver.
 
-* Send customers a certificate that confirms a shipment meets the agreed quality specifications.
-* Respond to customer requests for documentation tied to a specific source document or lot.
-* Reissue a certificate for a re-inspection when results have changed.,Compliance and regulatory teams can use the report to:
+Shipping and customer service teams can use the report to:
 
-* Keep evidence of test results and approvals for regulated products.
-* Show promoted result conditions and unfavorable results in a structured format for review.
-* Maintain a consistent certificate format that includes company contact details and signatories.
+* Attach a certificate of analysis to an outbound shipment to confirm conformance for the customer.
+* Respond to customer requests by producing a certificate filtered by source document number or item tracking.
+* Provide auditors and regulators with proof that inspections were finished, dated, and approved.
 
 ## Try the report
 
