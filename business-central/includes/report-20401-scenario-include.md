@@ -1,0 +1,1 @@
+Use the report when quality managers or inspectors need to share finished inspection results with customers, auditors, or internal stakeholders as a formal certificate that confirms the tested item meets specification.
