@@ -1,1 +1,1 @@
-Use the report when quality or shipping teams need to provide customers or auditors with a formal certificate showing inspection outcomes, test values, and approver signatures for a specific item, lot, serial, or package.
+Use the report when quality teams need to share inspection outcomes with customers or auditors as a formal certificate that lists tested attributes, recorded values, conditions, and approver signatures.
