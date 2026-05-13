@@ -1,1 +1,1 @@
-Use the report when accountants need to document a posted bank reconciliation, verify the statement and G/L balances, and review any outstanding bank transactions and checks tied to the statement.
+Use the report when you need to document a posted bank reconciliation, verify that the statement ending balance matches the G/L balance, and review outstanding transactions and checks for a bank account.

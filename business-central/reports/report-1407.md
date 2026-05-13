@@ -1,6 +1,6 @@
 ---
 title: Bank Account Statement (report)
-description: Print a posted bank account statement with statement balances, G/L balances, and outstanding transactions for reconciliation review and archiving.
+description: Print a posted bank account statement with reconciled balances, statement lines, and outstanding bank transactions and checks.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
@@ -17,9 +17,9 @@ ai.usage: ai-assisted
 
 # Bank Account Statement (report)
 
-The **Bank Account Statement** report shows the details of a posted bank account statement, including the statement date, balance last statement, statement ending balance, and the corresponding G/L balance at the statement date. It lists each statement line with transaction date, value date, type, document number, description, applied entries, statement amount, and applied amount. Optionally, the report includes sections for outstanding bank transactions and outstanding checks that were not yet cleared at the time of posting.
+The **Bank Account Statement** report shows the details of a posted bank account statement, including the statement date, balance last statement, statement ending balance, and the related G/L balance at the posting date. It lists each statement line with transaction date, value date, type, document number, description, applied entries, statement amount, and applied amount, and can include sections for outstanding bank transactions and outstanding checks so you can reconcile the statement balance to the bank account balance.
 
-You can filter the report by **Bank Account No.** and **Statement No.** to select which posted statements to print, and use the **Print Outstanding Transactions** option on the request page to include outstanding bank transactions and outstanding checks in the output.
+You can filter the report by **Bank Account No.** and **Statement No.** to select the posted statements to print, and use the **Print Outstanding Transactions** option on the request page to include lines for outstanding bank transactions and outstanding checks at the statement date.
 
 ## Use cases
 
@@ -27,15 +27,21 @@ You can filter the report by **Bank Account No.** and **Statement No.** to selec
 
 Controllers and finance teams can use the report to:
 
-* Document a posted bank reconciliation for the audit file by printing the statement with balances and applied entries.
-* Compare the statement ending balance with the G/L balance at the statement date to confirm that the bank account is reconciled.
-* Review outstanding bank transactions and outstanding checks that affect the adjusted bank account balance.
+* Verify that the statement ending balance plus outstanding items reconciles to the bank account balance in the G/L.
+* Document posted bank reconciliations for internal review and audit trails.
+* Review outstanding bank transactions and outstanding checks that have not yet cleared at the statement date.
 
 Accountants and bookkeepers can use the report to:
 
-* Print a single statement to share with auditors or management as evidence of the period's reconciliation.
-* Verify that each statement line is correctly matched to the bank account ledger entries through the applied amount and applied entries columns.
-* Identify outstanding payments and deposits that need follow-up before the next statement is posted.
+* Print a posted bank statement to compare statement lines with the bank's records.
+* Check applied entries and applied amounts on each statement line to confirm matching against bank account ledger entries.
+* Archive a copy of each posted statement together with its supporting outstanding items.
+
+External auditors can use the report to:
+
+* Trace the statement ending balance to the related G/L balance at the posting date.
+* Review outstanding checks and transactions to validate cut-off and completeness of bank reconciliations.
+* Use the filtered output by bank account and statement number as supporting documentation.
 
 ## Try the report
 
