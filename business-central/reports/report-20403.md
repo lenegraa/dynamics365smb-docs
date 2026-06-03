@@ -1,47 +1,41 @@
 ---
 title: Quality Management - Non-Conformance Report (report)
-description: Document a failed quality inspection with item, tracking, test results, and sign-off details for review and corrective action.
+description: Document a failed or non-conforming quality inspection with full test results, item tracking, and inspector and director sign-off.
 author: kennieNP
 ms.author: kepontop
 ms.reviewer: bholtorf
 ms.topic: concept-article
 ms.search.keywords: reporting
 ms.search.form: Report_20403_Primary
-ms.date: 2026-05-12
+ms.date: 2026-06-03
 ms.service: dynamics-365-business-central
 ms.custom:
  - ai-gen-docs-bap
- - ai-seo-date: 2026-05-12
+ - ai-seo-date: 2026-06-03
 ai.usage: ai-assisted
 ---
 
 # Quality Management - Non-Conformance Report (report)
 
-The **Quality Management - Non-Conformance Report** report prints the details of a quality inspection that did not meet specification, including the inspected item, item tracking information, each test field with its entered value and result, the user who completed the inspection, and a signature block for the inspector and the quality director.
+The **Quality Management - Non-Conformance Report** report prints a structured non-conformance certificate for a finished quality inspection, including the inspected item and tracking details, the inspection template and sequence, each test field with its entered value and result condition, and signature blocks for the quality inspector and director.
 
-You can filter the report by source item number, source variant code, source lot number, source serial number, source package number, source document number, inspection number, re-inspection number, template code, and test code, so you can scope the output to a specific inspection, a particular lot or serial, or a single test line.
+You can filter the report by source item number, source variant code, source lot, serial and package numbers, source document number, inspection number, re-inspection number, and template code on the header, and by test code on the inspection lines so you can produce a non-conformance report for a single inspection, a re-inspection round, or a specific set of tests.
 
 ## Use cases
 
 [!INCLUDE [report-20403-scenario](../includes/report-20403-scenario-include.md)]
 
-Quality inspectors can use the report to:
+Quality inspectors and QA managers can use the report to:
 
-* Issue a non-conformance report for an inspection that failed and attach it to the corrective action.
-* Review the test fields, entered values, and conditions that caused the inspection to fail.
-* Capture the date, inspector name, and signature line required to close out the inspection.
+* Issue a formal non-conformance report (NCR) for an inspection that failed against its template.
+* Show the entered measurements, result codes, and promoted condition results for each test field.
+* Capture who finished the inspection, when it was completed, and the inspector and director sign-off lines.
 
-QA managers and quality directors can use the report to:
+Compliance and customer-facing teams can use the report to:
 
-* Sign off non-conformance reports before they are sent to production or to the supplier.
-* Trace a non-conformance back to the specific item, lot, serial, or source document involved.
-* Compare results across re-inspections by filtering on inspection number and re-inspection number.
-
-Production and operations teams can use the report to:
-
-* Identify which lots or serial numbers are affected by a non-conformance and need to be quarantined or reworked.
-* Use the documented test results to drive root-cause analysis and corrective actions.
-* Share a formal record of the failed inspection with internal stakeholders or auditors.
+* Share documented evidence of non-conformance with customers, suppliers, or auditors.
+* Trace a non-conformance back to the exact item, variant, lot, serial, or package involved.
+* Reference the re-inspection sequence and result description when following up with corrective actions (CAR).
 
 ## Try the report
 
